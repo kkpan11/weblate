@@ -1,7 +1,30 @@
+Weblate 5.10.1
+--------------
+
+*Not yet released.*
+
+.. rubric:: New features
+
+.. rubric:: Improvements
+
+.. rubric:: Bug fixes
+
+.. rubric:: Compatibility
+
+.. rubric:: Upgrading
+
+Please follow :ref:`generic-upgrade-instructions` in order to perform update.
+
+.. rubric:: Contributors
+
+.. include:: changes/contributors/5.10.1.rst
+
+`All changes in detail <https://github.com/WeblateOrg/weblate/milestone/137?closed=1>`__.
+
 Weblate 5.10
 ------------
 
-*Expected 15th February 2025.*
+*Released on February 14th 2025.*
 
 .. rubric:: New features
 
@@ -29,6 +52,7 @@ Weblate 5.10
 * Reduced false positives in :ref:`check-end-colon` and :ref:`check-end-stop` for CJK languages.
 * OpenAPI schema for API includes more information.
 * :ref:`check-regex` supports advanced regular expressions.
+* :ref:`check-same` gracefully deals with case-insensitive languages.
 
 .. rubric:: Bug fixes
 
@@ -41,6 +65,7 @@ Weblate 5.10
 * :ref:`autofix-html` automatic fixups honors the ``ignore-safe-html`` flag.
 * :ref:`check-punctuation-spacing` no longer applies to Breton.
 * Fixed :ref:`addon-weblate.git.squash` on linked repositories.
+* :ref:`check-multiple-failures` avoids false positives and better lists related checks.
 
 .. rubric:: Compatibility
 

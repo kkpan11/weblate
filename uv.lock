@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -291,16 +292,16 @@ wheels = [
 
 [[package]]
 name = "boto3-stubs"
-version = "1.36.19"
+version = "1.36.21"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore-stubs" },
     { name = "types-s3transfer" },
     { name = "typing-extensions", marker = "python_full_version < '3.12'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/32/c9f23c2e5b516acc9116c70e44e9ff58cc49c463fe3bdc61b6ad8c4c94d5/boto3_stubs-1.36.19.tar.gz", hash = "sha256:644e661c5dad882b31a0691d8d5274c99db8d79221d32e9d7c8d077a7fa38834", size = 98632 }
+sdist = { url = "https://files.pythonhosted.org/packages/53/b5/eff153ba3690c42e6ef2017f7bbc6f21e4cda586128d0cd52d54b34c4e22/boto3_stubs-1.36.21.tar.gz", hash = "sha256:0cb41bcc60490c8f2f6916d246839b0017184ffff31f65fc2e9205beceaf53ba", size = 98634 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/d9/1556bcb03c56a538310c431c86b38ee609d8f61b22928633ab9812dff5b5/boto3_stubs-1.36.19-py3-none-any.whl", hash = "sha256:1bd23cd3a9f7bd313123a3f90ce5da452d9b3782f4a72b40eace6201671b6094", size = 68259 },
+    { url = "https://files.pythonhosted.org/packages/16/19/29cda3d4160312b6eff60b466aa29607f3388c23a490eb2b5bab3c196507/boto3_stubs-1.36.21-py3-none-any.whl", hash = "sha256:37803a04d55dc14e99e1aabdbdfc1612d92d55f1fdf2b8efc3f7ccc5b5514a09", size = 68260 },
 ]
 
 [[package]]
@@ -904,14 +905,14 @@ argon2 = [
 
 [[package]]
 name = "django-appconf"
-version = "1.0.6"
+version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/65/e0/704b6453f21fac22f0ab128150e9782b7d38bc1ed09710ac2197ddc1751f/django-appconf-1.0.6.tar.gz", hash = "sha256:cfe87ea827c4ee04b9a70fab90b86d704cb02f2981f89da8423cb0fabf88efbf", size = 15895 }
+sdist = { url = "https://files.pythonhosted.org/packages/61/a9/dcf95ff3fa0620b6818fc02276fbbb8926e7f286039b6d015e56e8b7af39/django-appconf-1.1.0.tar.gz", hash = "sha256:9fcead372f82a0f21ee189434e7ae9c007cbb29af1118c18251720f3d06243e4", size = 15986 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c0/98/1cb3d9e8b1c6d0a74539b998474796fc5c0c0888b6201e5c95ba2f7a0677/django_appconf-1.0.6-py3-none-any.whl", hash = "sha256:c3ae442fba1ff7ec830412c5184b17169a7a1e71cf0864a4c3f93cf4c98a1993", size = 6424 },
+    { url = "https://files.pythonhosted.org/packages/62/9e/f3a899991e4aaae4b69c1aa187ba4a32e34742475c91eb13010ee7fbe9db/django_appconf-1.1.0-py3-none-any.whl", hash = "sha256:7abd5a163ff57557f216e84d3ce9dac36c37ffce1ab9a044d3d53b7c943dd10f", size = 6389 },
 ]
 
 [[package]]
@@ -1012,14 +1013,14 @@ wheels = [
 
 [[package]]
 name = "django-filter"
-version = "24.3"
+version = "25.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/50/bc/dc19ae39c235332926dd0efe0951f663fa1a9fc6be8430737ff7fd566b20/django_filter-24.3.tar.gz", hash = "sha256:d8ccaf6732afd21ca0542f6733b11591030fa98669f8d15599b358e24a2cd9c3", size = 144444 }
+sdist = { url = "https://files.pythonhosted.org/packages/b5/40/c702a6fe8cccac9bf426b55724ebdf57d10a132bae80a17691d0cf0b9bac/django_filter-25.1.tar.gz", hash = "sha256:1ec9eef48fa8da1c0ac9b411744b16c3f4c31176c867886e4c48da369c407153", size = 143021 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/09/b1/92f1c30b47c1ebf510c35a2ccad9448f73437e5891bbd2b4febe357cc3de/django_filter-24.3-py3-none-any.whl", hash = "sha256:c4852822928ce17fb699bcfccd644b3574f1a2d80aeb2b4ff4f16b02dd49dc64", size = 95011 },
+    { url = "https://files.pythonhosted.org/packages/07/a6/70dcd68537c434ba7cb9277d403c5c829caf04f35baf5eb9458be251e382/django_filter-25.1-py3-none-any.whl", hash = "sha256:4fa48677cf5857b9b1347fed23e355ea792464e0fe07244d1fdfb8a806215b80", size = 94114 },
 ]
 
 [[package]]
@@ -4243,7 +4244,7 @@ wheels = [
 
 [[package]]
 name = "weblate"
-version = "5.10"
+version = "5.10.1"
 source = { editable = "." }
 dependencies = [
     { name = "aeidon" },
@@ -4509,13 +4510,13 @@ requires-dist = [
     { name = "dateparser", specifier = ">=1.2.0,<1.3.0" },
     { name = "diff-match-patch", specifier = "==20241021" },
     { name = "django", extras = ["argon2"], specifier = ">=5.1.5,<5.2" },
-    { name = "django-appconf", specifier = ">=1.0.3,<1.1" },
+    { name = "django-appconf", specifier = ">=1.0.3,<1.2" },
     { name = "django-auth-ldap", marker = "extra == 'ldap'", specifier = ">=4.6.0,<6.0.0" },
     { name = "django-celery-beat", specifier = ">=2.7.0,<2.8" },
     { name = "django-compressor", specifier = ">=4.5.1,<5" },
     { name = "django-cors-headers", specifier = ">=4.6.0,<4.8" },
     { name = "django-crispy-forms", specifier = ">=2.3,<2.4" },
-    { name = "django-filter", specifier = ">=24.3,<24.4" },
+    { name = "django-filter", specifier = ">=24.3,<25.2" },
     { name = "django-otp", specifier = ">=1.5.4,<2.0" },
     { name = "django-otp-webauthn", specifier = ">=0.4.0,<0.5" },
     { name = "django-redis", specifier = ">=5.4.0,<6.0" },
@@ -4578,10 +4579,11 @@ requires-dist = [
     { name = "wlhosted", marker = "extra == 'wlhosted'" },
     { name = "wllegal", marker = "extra == 'wllegal'", specifier = ">=2024.6" },
 ]
+provides-extras = ["alibaba", "all", "amazon", "antispam", "gelf", "gerrit", "google", "ldap", "mercurial", "mysql", "openai", "postgres", "saml", "saml2idp", "wlhosted", "wllegal", "wsgi", "zxcvbn"]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "boto3-stubs", specifier = "==1.36.19" },
+    { name = "boto3-stubs", specifier = "==1.36.21" },
     { name = "celery-types", specifier = "==0.22.0" },
     { name = "coverage", specifier = "==7.6.12" },
     { name = "django-debug-toolbar", specifier = "==5.0.1" },
@@ -4661,7 +4663,7 @@ test = [
     { name = "selenium", specifier = "==4.28.1" },
 ]
 types = [
-    { name = "boto3-stubs", specifier = "==1.36.19" },
+    { name = "boto3-stubs", specifier = "==1.36.21" },
     { name = "celery-types", specifier = "==0.22.0" },
     { name = "django-stubs", specifier = "==5.1.3" },
     { name = "django-stubs-ext", specifier = "==5.1.3" },
